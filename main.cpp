@@ -2,7 +2,7 @@ bool LoadTestNum(ifstream &source, int test_num,
   Paths64 &subj, Paths64 &subj_open, Paths64 &clip,
   int64_t& area, int64_t& count, ClipType &ct, FillRule &fr)
 {
-  string line;
+  string line;//work hard
   area = 0; count = 0;
   if (test_num <= 0) test_num = 1;
   source.seekg(0, ios_base::beg);
