@@ -26,3 +26,4 @@ bool LoadTestNum(ifstream &source, int test_num,
       ct = ClipType::Difference;
     else if (line.find("XOR") != string::npos)
       ct = ClipType::Xor;
+//yes
